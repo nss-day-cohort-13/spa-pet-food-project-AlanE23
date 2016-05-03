@@ -17,13 +17,15 @@
 
     <div class="wrapper">
 
-      <h1 class="header">Acme Pet Food</h1>
+      <h1 class="header">Acme Inc.</h1>
 
 <!-- Dog Food Table -->
       <div class="table-responsive">
         <table class="table table-bordered table-striped table-hover">
           <thead class="table">
-            <h1 class="tableHead">Dog Food</h1>
+            <tr>
+              <td colspan="4" class="tableHead">Dog Food</td>
+            </tr>
             <tr>
               <th>Brand</th>
               <th>Type</th>
@@ -31,13 +33,7 @@
               <th>Price</th>
             </tr>
           </thead>
-          <tbody class="table">
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+          <tbody id="dogTable" class="table">
           </tbody>
         </table>
       </div>
@@ -46,7 +42,9 @@
       <div class="table-responsive">
         <table class="table table-bordered table-striped table-hover">
           <thead class="table">
-            <h1 class="tableHead">Cat Food</h1>
+            <tr>
+              <td colspan="5" class="tableHead">Cat Food</td>
+            </tr>
             <tr>
               <th>Brand</th>
               <th>Breed</th>
@@ -55,19 +53,10 @@
               <th>Price</th>
             </tr>
           </thead>
-          <tbody class="table">
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+          <tbody id="catTable" class="table">
           </tbody>
         </table>
       </div>
-
-    </div>
 
   <script src="food.js"></script>
   </body>
